@@ -1,20 +1,6 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import { Box, Flex } from "@chakra-ui/react";
 import Logo from "../ui/Logo";
-
-// const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
-//   return (
-//     <Text
-//       mb={{ base: isLast ? 0 : 8, sm: 0 }}
-//       mr={{ base: 0, sm: isLast ? 0 : 8 }}
-//       display="block"
-//       {...rest}
-//     >
-//       <Link to={to}>{children}</Link>
-//     </Text>
-//   );
-// };
 
 const CloseIcon = () => (
   <svg width="24" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
@@ -76,23 +62,6 @@ const Header = (props) => {
           direction={["column", "row", "row", "row"]}
           pt={[4, 4, 0, 0]}
         >
-          {/* <MenuItem to="/">Home</MenuItem>
-          <MenuItem to="/how">How It works </MenuItem>
-          <MenuItem to="/features">Features </MenuItem>
-          <MenuItem to="/pricing">Pricing </MenuItem>
-          <MenuItem to="/join" isLast>
-            <Button
-              size="sm"
-              rounded="md"
-              color={["primary.500", "primary.500", "white", "white"]}
-              bg={["white", "white", "primary.500", "primary.500"]}
-              _hover={{
-                bg: ["primary.100", "primary.100", "primary.600", "primary.600"]
-              }}
-            >
-              Create Account
-            </Button>
-          </MenuItem> */}
         </Flex>
       </Box>
     </Flex>

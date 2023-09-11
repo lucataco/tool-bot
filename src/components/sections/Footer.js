@@ -13,7 +13,7 @@ const Footer = (props) => {
     >
       <Box>
         <Text fontSize="xs" textAlign="center" opacity="0.6">
-          <Box>Questions? Email me at: help@profilepics.ai</Box>
+          <Box>Questions? Email me at: hello@catacolabs.com</Box>
           <Box>
             &copy; 2022{" "}
             <Text as="u">
